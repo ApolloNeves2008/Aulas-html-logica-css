@@ -1,0 +1,12 @@
+Variaveis são um tipo de caixa aonde guardamos coisa ou valores, os principais tipos são:
+
+>strings-> são textos ou carcteres.
+
+>int-> números inteiros.
+
+>float-> números fracionarios.
+
+>boleanos-> verdadeiro ou falso.
+
+
+Variaves podem ter seu conteúdo alterado, já as constantes não sofrem alteração em seu conteúdo.
