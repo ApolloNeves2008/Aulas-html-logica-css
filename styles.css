@@ -1,0 +1,21 @@
+/*
+h1{
+    color:blue;
+    font-size: 12px;
+}
+*/
+.titulo_um{
+    color:blue;
+}
+.titulo_dois{
+    color:brown;
+}
+
+.box{
+background-color: brown;
+   /* width: 100px;largura(px, %, vw)*/
+   /* height: 100px;altura (px, %, vh)*/
+    border: 5px solid;
+    margin: 10px; /*margin é o espaço fora da borda*/
+padding: 5px;
+}
