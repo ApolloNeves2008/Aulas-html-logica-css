@@ -1,0 +1,53 @@
+
+
+reset{margin: 0;
+    padding: 0;
+    border: 0;}
+
+header{
+
+width: 100pw;
+height: 100ph;
+padding: 1%;
+position: relative;
+text-align: center;
+color: white;
+background-color: black;
+
+}
+
+main{
+
+    width: 70pw;
+    height: 40ph;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    color: black;
+    
+    
+
+
+}
+  
+
+
+
+
+footer{
+     
+    width: 100vw;
+    padding: 30px; 
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 20px 0 white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+
+}
+
+
+
+
+
