@@ -1,0 +1,82 @@
+/*parte do cabeçalho*/
+
+/*reset*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/*estilização do cabeçalho*/
+header{
+
+    width: 100vw;
+    padding: 30px; /*espaço interno*/
+color: white; /*cor da fonte*/
+background-color: black; /*cord de fundo*/
+text-align: center; /*texto centralizado*/
+box-shadow: 0 0 4px 0 #7f8c8d; /*sombra*/
+
+}   
+
+footer{
+
+    width: 100vw;
+    padding: 30px; /*espaço interno*/
+color: black; /*cor da fonte*/
+background-color: darkblue; /*cord de fundo*/
+text-align: center; /*texto centralizado*/
+box-shadow: 0 0 4px 0 black; /*sombra*/
+ position: fixed; /*fixando elemento*/
+ bottom: 0; /*margem de baixo (parte de baixo da pagina)*/
+ 
+}
+
+
+main{ 
+
+    width: 30vw;
+    height: 30vh; /*espaço interno*/
+color: white; /*cor da fonte*/
+background-color: darkblue ; /*cord de fundo*/
+text-align: center; /*texto centralizado*/
+box-shadow: 0 0 20px black; /*sombra*/
+position: relative;
+border: 20%;
+right:-38%;
+justify-content: space-between;
+border-radius: 20%;
+
+
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body{ 
+
+    background-color:royalblue ;
+
+
+}
+
+.button{
+   border:100px relative;
+   height: 50px;
+   width: 50px;
+   margin-top: 20px;
+   border-radius: 20px;
+   background-color: black;
+color: black;
+}
+
+button:hover{
+
+    color: black;
+}
+
+
+
+
+
+
