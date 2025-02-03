@@ -1,0 +1,35 @@
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>
+ 
+ {% block title %} {% endblock%} 
+ </title>
+</head>
+<body>
+    <div class="container">
+        <ul class="nav bg-info">
+        <li class="nav-item">
+        <a class="nav-link link-light" href="/">HOME</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link link-light" href="/alunos_contato/">Contato</a>
+        <a class="nav-link link-light" href="/alunos_list/">Cadastro</a>
+        </li>
+        </ul>
+    </div>
+    <main>
+
+ 
+ 
+ 
+
+ {% block content %} {% endblock %}
+ </main> 
+</body>
+</html>
