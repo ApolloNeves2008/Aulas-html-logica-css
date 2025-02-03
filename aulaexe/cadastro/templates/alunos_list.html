@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block titulo %} Cadastro {% endblock %}
+
+{% block content %}
+<h1>Alunos Cadastrados</h1>
+<table>
+    <tr>
+        <th>Nome:</th>
+        <th>Curso:</th>
+        <th>Turma:</th>
+    </tr>
+    {% for aluno in dados %}
+    <tr>
+        <td>{{aluno.nome}}</td>
+        <td>{{aluno.turma}}</td>
+        <td>{{aluno.curso}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
