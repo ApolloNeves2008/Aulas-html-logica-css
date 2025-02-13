@@ -18,16 +18,16 @@ from django.contrib import admin
 from django.urls import path
 
 #Aqui informamaos quais funções temos na views
-from livros.views import alugar, catalogo, home, login 
+from livros.views import sobre, fun_section, fun_home, delete_section, senhor, indicacao, catalogo, emprestimo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', login),
-    path('alugar/', alugar),
-    path('catalogo/', catalogo),
-    path('sobre/', home)
-
-
-    
-
+    path('sobre/', sobre, name='sobre'),
+    path('indicacao/', indicacao, name='indicacao'),
+    path('catalogo/', catalogo, name='catalogo'),
+     path('emprestimo/', emprestimo, name='emprestimo'),
+    path('', fun_section, name='sessao'),
+    path('home/', fun_home, name='inicio'),
+    path('delete_section/', delete_section, name="delete_section"),
+    path('senhor/', senhor, name="senhor")
 ]

@@ -1,0 +1,33 @@
+
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+
+        <section id="emprestimo">
+            <h2>Nosso Catálago</h2>
+            <p>Veja nossos livros, e se desejar pegue emprestado!</p>
+            <div class="livros">
+                <div class="livro">
+                    <img src="{% static 'image\aneis.webp' %}" alt="Livro 1">
+                    <p>O Senhor dos Anéis</p>
+                    <button type="btn-emprestimo">registar emprestimo</button>
+                    
+                </div>
+                <div class="livro">
+                    <img src="{% static 'image/pedra.jpg' %}" alt="Livro 2">
+                    <p>Harry Potter e a Pedra Filosofal</p>
+                    <button type="btn-emprestimo">registar emprestimo</button>
+                   
+                </div>
+                <div class="livro">
+                    <img src="{% static 'image/estrelas.jpg' %}" alt="Livro 3">
+                    <p>A Culpa é das Estrelas</p>
+                    <button type="btn-emprestimo">registar emprestimo</button>
+                </div>
+            </div>
+        </section>
+  
+{% endblock %}

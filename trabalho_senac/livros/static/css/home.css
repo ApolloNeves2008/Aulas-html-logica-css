@@ -1,0 +1,140 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Fundo suave */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+/* Cabeçalho e navegação */
+header {
+    background-color: #000; /* Cor escura para o cabeçalho */
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50; /* Cor de destaque no hover */
+}
+
+/* Seção principal */
+main {
+    width: 90%;
+    max-width: 1200px; /* Limita a largura do conteúdo */
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Seção de Empréstimo */
+#emprestimo {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#emprestimo h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#emprestimo p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Estilo para os livros */
+.livros {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Adapta-se a telas menores */
+}
+
+/* Estilo para cada livro */
+.livro {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.livro:hover {
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+/* Estilo das imagens dos livros */
+.livro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Estilo do nome do livro */
+.livro p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Estilo do botão de empréstimo */
+.btn-emprestimo {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-emprestimo:hover {
+    background-color: #45a049;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
